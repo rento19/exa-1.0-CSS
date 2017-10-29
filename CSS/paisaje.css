@@ -1,0 +1,182 @@
+body{
+	background: #02010a;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 35px;
+}
+.container{
+  margin: 0 auto;
+  width: 900px;
+}
+/* Cabecera*/
+
+header{
+  background: #5b7989;
+  overflow: hidden;
+  height: 90px;
+  border-radius: 10px 10px 0px 0px ;
+}
+header .logo{
+  float: left;
+  text-shadow: 2px 2px 2px #02010a;
+}
+header nav{
+  float: right;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style : none;
+}
+header nav ul li{
+  display: inline;
+}
+header nav ul li a{
+	color: white;
+}
+/* Seccion amarillo*/
+.amarillo{
+  background: #d5c75f;
+  text-align: center;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+img{
+	border: 2px solid white;
+	width: 250px;
+}
+
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+}
+#imagen1 img{
+-webkit-filter:blur(10px);
+				filter:blur(10px);
+}
+#imagen2 img{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#imagen3 img{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+#imagen4 img{
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+#imagen6 img{
+  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+
+
+
+/* Media Queries */
+
+/*
+  Desktop: > 1024px
+  Tablet: 768px
+  Mobile: < 620px
+*/
+@media only screen and (max-width:768px){
+	.container{
+		width: 760px;
+		font-size: 35px;
+	}
+	#wrapper{
+		width: 760px;
+	}
+	#wrapper{
+		width: 760px;
+	}
+	#columna11{
+			width: 100%;
+	}
+	#columna22{
+		width: 100%;
+	}
+	#columna33{
+		width: 100%;
+	}
+	#columna44{
+		width: 100%;
+	}
+}
+@media only screen and (max-width:640px){
+	.container{
+		width: 370px;
+		font-size: 25px;
+	}
+	#wrapper{
+		width: 370px;
+	}
+	#wrapper{
+		width: 370px;
+	}
+
+}
+/* Footer */
+footer{
+	height: 300px;
+}
+
+footer li img{
+	border-radius: 10px 10px 10px 10px;
+	width: 15%;
+	overflow: hidden;
+}
+article
+{
+	box-sizing:content-box;
+	float:left;
+	text-align: center;
+	height: 400px;
+}
+#wrapper2{
+	margin:0 auto;
+}
+#columna11
+	{
+	background-color:  #C6d5c5;
+	width: 25%;
+	color: black;
+	font-size: 20px;
+	border-radius: 0px 0px 0px 10px;
+	}
+	ul li{
+		list-style-type: none;
+	}
+	#columna22
+	{
+		background-color:  #C6d5c5;
+		width: 25%;
+		color: black;
+		font-size: 20px;
+	}
+	#columna33
+	{
+		background-color:  #C6d5c5;
+		width: 25%;
+		color: black;
+		font-size: 20px;
+	}
+	#columna44
+	{
+		background-color:  #C6d5c5;
+		width: 25%;
+		color: black;
+		font-size: 20px;
+		border-radius: 0px 0px 10px 0px;
+	}
+	footer ul li a{
+		color: black;
+
+	}
